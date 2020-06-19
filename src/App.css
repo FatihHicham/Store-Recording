@@ -1,0 +1,145 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --mainGris: #6c757d;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1.125em;
+  line-height: 1.6;
+  grid: auto / 1em 1fr 1em;
+  display: flex;
+  flex-direction: column;
+}
+.text-title {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-Dark {
+  color: black;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-white {
+  color: var(--mainWhite);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+.list-unstyled {
+  margin-top: auto;
+  grid-column: 1 / -1;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.back1 {
+  background-image: url(./background/car.png);
+  background-size: cover;
+  background-position: center;
+}
+.main-home {
+  padding: 0 15px;
+}
+.CarD {
+  padding-top: 1em;
+}
+.social-container {
+  text-align: center;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: black;
+}
+
+a.youtube :hover {
+  color: red;
+}
+a.facebook {
+  color: black;
+}
+
+a.facebook :hover {
+  color: #4267b2;
+}
+
+a.twitter {
+  color: black;
+}
+
+a.twitter :hover {
+  color: #1da1f2;
+}
+
+a.instagram {
+  color: black;
+}
+
+a.instagram :hover {
+  color: #fcaf45;
+}
+
+a.current {
+  text-align: justify;
+}
+.logo2 {
+  width: 30%;
+}
+.logo {
+  height: 90px;
+  max-width: 100px;
+}
+.logo3 {
+  height: 15rem;
+  width: 15rem;
+}
+.load {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
